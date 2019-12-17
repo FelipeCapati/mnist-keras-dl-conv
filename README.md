@@ -8,7 +8,19 @@ densa mais simples.<br>
 
 ## II.	FUNDAMENTAÇÃO TEÓRICA ##
 
-### A.	REDES DE CONVOLUÇÃO ###
+### A.	LENET - 5 ###
+
+O LeNet-5 é uma arquitetura de rede neural proposta em 1990 por Yann LeCun, Leon Bottou, Yosuha Bengio e Patrick Haffner
+com a finalidade de reconhecer letras e números escritos manustritos<br>
+
+A arquitetura da rede pode ser analisada a seguir:
+
+![Alt text](images/conv-image-01.png?)<br>
+
+Na qual temos a imagem 32x32 como entrada seguida de duas etapas convolucional + pooling e uma camada densa. Os detalhes
+de todas as camadas pode ser analisado a seguir:
+
+![Alt text](images/conv-table-01.png?)<br>
 
 ## III.	METODOLOGIA ##
 Para o projeto vigente foi utilizado python juntamente com o Notebook Jupyter para prototipar o modelo do
